@@ -469,9 +469,9 @@ img.imagen-creada2{
     .slider-track-bandera{
         display: flex;
         width: calc(100px * 5);
-        animation: scroll 10s linear infinite;
+        animation: scroll2 10s linear infinite;
     }
-    @keyframes scroll{
+    @keyframes scroll2{
         0%{ 
             transform: translateX(0);
         }
