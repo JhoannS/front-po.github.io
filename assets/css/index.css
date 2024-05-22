@@ -10,6 +10,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Outfit", sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -467,15 +468,15 @@ img.imagen-creada2{
     
     .slider-track-bandera{
         display: flex;
-        width: calc(2% * 20);
-        animation: scroll 60s linear infinite;
+        width: calc(100px * 5);
+        animation: scroll 10s linear infinite;
     }
     @keyframes scroll{
-        0%{
+        0%{ 
             transform: translateX(0);
         }
         100%{
-            transform: translateX(calc(-340px * 20));
+            transform: translateX(calc(-100px * 10));
         }
     }
     .slide{
