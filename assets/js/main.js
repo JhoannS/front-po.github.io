@@ -16,3 +16,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
     progressBar.style.width = `${scrolled}%`
   })
+
+ 
