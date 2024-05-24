@@ -239,7 +239,9 @@ nav li a:hover:after {
     padding: 20px 0;
     width: 100%;
 }
-
+.contacto-tarjeta{
+    display: flex;
+}
 .tarjeta-portada i {
     font-size: 30px;
 }
