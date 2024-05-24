@@ -406,6 +406,7 @@ nav li a:hover:after {
       }
       .bloque {
         padding: 0;
+        justify-content: center;
       }
       .card {
         width: 350px;
